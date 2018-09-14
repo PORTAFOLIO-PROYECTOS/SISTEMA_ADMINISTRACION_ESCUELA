@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EscuelaOnline.Infraestructu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EscuelaOnline.Infrastructure.DependencyInjection", "EscuelaOnlie.Infrastructure.DependencyInjection\EscuelaOnline.Infrastructure.DependencyInjection.csproj", "{75108736-0D69-41AA-AFC9-0790CF5B8921}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{C80A0BE4-52B1-41E9-8817-5CB6CDBE5EF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EscuelaOnline.Service", "EscuelaOnline.Service\EscuelaOnline.Service.csproj", "{601ED5D7-8B5D-45A2-ABBE-E46FF2872674}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +51,10 @@ Global
 		{75108736-0D69-41AA-AFC9-0790CF5B8921}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75108736-0D69-41AA-AFC9-0790CF5B8921}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75108736-0D69-41AA-AFC9-0790CF5B8921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{601ED5D7-8B5D-45A2-ABBE-E46FF2872674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{601ED5D7-8B5D-45A2-ABBE-E46FF2872674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{601ED5D7-8B5D-45A2-ABBE-E46FF2872674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{601ED5D7-8B5D-45A2-ABBE-E46FF2872674}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +65,7 @@ Global
 		{E114D96D-0770-4C06-B16C-07355B4B4382} = {DA2A13B9-1D02-4B05-A21E-D566F6FFEEF4}
 		{24ECD0B7-89B2-4081-8894-39B685C3F73E} = {709C3E67-C50E-4FD8-93D8-03B1142F8296}
 		{75108736-0D69-41AA-AFC9-0790CF5B8921} = {709C3E67-C50E-4FD8-93D8-03B1142F8296}
+		{601ED5D7-8B5D-45A2-ABBE-E46FF2872674} = {C80A0BE4-52B1-41E9-8817-5CB6CDBE5EF4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D0257B15-C7BB-4B3D-9260-1D5E6B93DD73}
